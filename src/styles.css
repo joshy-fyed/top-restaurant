@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1518685101044-3b5a4e7580a3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGFyayUyMHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D");
+    background-color: #CF2734;
     background-size: cover;
     height:max-content;
 }
@@ -18,16 +18,35 @@ div#content {
     padding: 3rem;
 }
 
-.home-title {
-    height: 300px;
+.home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.home-title {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .title {
     font-size: 3rem;
     font-weight: bold;
     margin: 0px;
+}
+
+.logo {
+    object-fit: contain;
+    width: 180px;
+    height: 300px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
